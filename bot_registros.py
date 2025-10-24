@@ -380,7 +380,7 @@ async def sync(ctx):
         await ctx.send('❌ No tienes permisos')
 
 # TU TOKEN
-TOKEN = "MTQzMTEwNzUzOTUyODk3ODQ1Mg.GABCGL.65wLXCbxHkH2xwjySEE58GlOCNgjNA_LoRl1hk"
+TOKEN = "DISCORD_TOKEN"
 
 if __name__ == "__main__":
     init_db()
@@ -389,3 +389,4 @@ if __name__ == "__main__":
     print('✨ CREADOR: GHOST')
     print('=' * 60)
     bot.run(TOKEN)
+
